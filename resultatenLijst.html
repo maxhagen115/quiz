@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+    <div class="mainContainer">
+      <h1>Resultaten Lijst 🎲</h1>
+      <h3>Scores</h3>
+      <div class="scoreBar">
+        <div class="innerScoreBar"><span>25%</span></div>
+      </div>
+      <div class="resultatenKnoppen">
+        <a id="resultatenKnop" class="startKnop">Bekijk resultaten</a>
+        <button class="shareButton" onclick="window.location.href='index.html'">Opnieuw</button>
+        <button id="shareButton" class="shareButton">Deel</button>
+      </div>
+      <div id="modalOverlay" style="display: none" class="modalOverlay">
+        <div class="resultatenModal">
+          <img
+            id="wegklikken"
+            class="closeModalIcon"
+            alt="Close Modal Icon"
+            src="./images/close-modal-icon.png"
+          />
+          <h4>Mijn resultaten</h4>
+          <div id="antwoordenLijst" class="antwoordenLijst">
+            <div class="antwoord">
+              <h5>Vraag 1: jifpfjqwpojqw</h5>
+              <div class="optieLijst">
+                <button class="geselecteerdGoed">Optie 1</button>
+                <button>Optie 2</button>
+                <button>Optie 3</button>
+                <button>Optie 4</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js">
+      laadResultaten();
+    </script>
+  </body>
+</html>

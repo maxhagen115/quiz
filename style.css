@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------ Home Scherm ------- */
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #ffdbb9;
+}
+
+.mainContainer h1 {
+  font-size: 50px;
+  text-align: center;
+  max-width: 650px;
+  font-weight: 100;
+}
+
+.mainContainer p {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.startKnop {
+  background-color: #ffcfa3;
+  padding: 10px 50px;
+  border-radius: 100px;
+  font-size: 40px;
+  margin-top: 35px;
+  width: 100%;
+  max-width: 500px;
+  border: none;
+  display: inline-block;
+  background-color: #f4b183;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shareButton{
+  background-color: #ffcfa3;
+  padding: 10px 50px;
+  border-radius: 100px;
+  font-size: 40px;
+  margin: 35px 10px;
+  width: 100%;
+  max-width: 500px;
+  max-height: 106px;
+  border: none;
+  display: inline-block;
+  background-color: #f4b183;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* ------ Categorie Scherm ------- */
+
+.categorieLijst {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin-top: 10px;
+}
+
+.categorieKeuze {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4b183;
+  color: black;
+  text-decoration: none;
+  padding: 30px;
+  border-radius: 50px;
+  width: 220px;
+  height: 150px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  z-index: 1;
+}
+
+#options {
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.categorieKeuze:hover {
+  background-color: #ee9b58;
+  transform: scale(1.05);
+}
+
+/* ------ Resultatenlijst Pagina ------ */
+
+.resultatenKnoppen {
+  display: flex;
+  justify-content: center;
+}
+
+.resultatenKnoppen a {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 10px;
+  font-size: 35px;
+}
+
+.scoreBar {
+  width: 500px;
+  border-radius: 15px;
+  background-color: #c8ac91;
+  margin-top: 10px;
+}
+.innerScoreBar {
+  background-color: red;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  border-radius: 15px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.innerScoreBar span {
+  margin-left: 10px;
+}
+
+.modalOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.553);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resultatenModal {
+  background-color: white;
+  width: 60%;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  height: 80%;
+  flex-direction: column;
+  position: relative;
+}
+.resultatenModal h4 {
+  font-size: 45px;
+  padding-top: 20px;
+  margin-bottom: 15px;
+}
+
+.antwoordenLijst {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  width: 100%;
+  padding: 10px 45px;
+  margin-bottom: 25px;
+}
+
+.antwoord {
+  margin-top: 30px;
+  width: 100%;
+}
+.antwoord h5 {
+  font-size: 20px;
+}
+.antwoord .optieLijst {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+.antwoord .optieLijst button {
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin: 5px 0;
+  cursor: pointer;
+}
+.geselecteerdFout {
+  background-color: red;
+}
+.geselecteerdGoed {
+  background-color: rgb(61, 193, 61);
+}
+
+.closeModalIcon {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.volgendeKnop {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  padding: 25px 45px;
+  font-size: 35px;
+  font-weight: 800;
+  background-color: #ffcfa3;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.gameIcon {
+  position: fixed;
+  bottom: 100px;
+  right: 110px;
+  width: 200px;
+  height: auto;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+.gameIcon:hover {
+  opacity: 1;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .categorieLijst {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .categorieLijst {
+    grid-template-columns: 1fr;
+  }
+  .gameIcon {
+    width: 150px;
+  }
+}
+
+.goedeAntwoord {
+  background-color: green;
+}
+
+.fouteAntwoord {
+  background-color: red;
+}
+
+.progress-bar {
+  width: 60%;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  height: 20px;
+  margin-top: 100px;
+}
+
+.progress {
+  height: 100%;
+  background-color: #ffab5c;
+  border-radius: 5px;
+  transition: width 0.3s ease;
+}

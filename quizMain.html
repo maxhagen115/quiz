@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>quizMain</title>
+</head>
+
+<body>
+  <div class="mainContainer">
+    <p id="vraagNummer">Vraag 1</p>
+    <h1 id="question-text"></h1>
+    <div id="options"></div>
+    <button style="display: none" id="volgendeKnop" onclick="naarVolgendeVraag()" class="volgendeKnop">
+      Volgende
+    </button>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar">
+      <div id="progress" class="progress"></div>
+    </div>
+  </div>
+
+  <img src="images/game-icon.png" alt="Game Icon" class="gameIcon" />
+
+  <script src="script.js"></script>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    let categorieNummer = urlParams.get("categorieNummer");
+    fetchQuestions(categorieNummer);
+  </script>
+</body>
+
+</html>

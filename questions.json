@@ -1,0 +1,534 @@
+{
+  "1": [
+    {
+      "question": "Welke programmeertaal komt uit Nederland?",
+      "options": ["Java", "Typescript", "Python", "Assembly"],
+      "correct_answer": "Python"
+    },
+    {
+      "question": "Wat betekent API?",
+      "options": [
+        "Application Programming Interface",
+        "Application Password Interface",
+        "Advanced Password Interface",
+        "Advanced Programming Interface"
+      ],
+      "correct_answer": "Application Programming Interface"
+    },
+    {
+      "question": "Waar vindt versiebeheer plaats?",
+      "options": ["Reddit", "GeeksForGeeks", "GitHub", "Stackoverflow"],
+      "correct_answer": "GitHub"
+    },
+    {
+      "question": "Als Back-end Developer houd ik mij het minst bezig met?",
+      "options": [
+        "Infrastructuur",
+        "Software",
+        "Organisatieprocessen",
+        "Gebruikersinteractie"
+      ],
+      "correct_answer": "Gebruikersinteractie"
+    },
+    {
+      "question": "Wat is een populaire back-end framework?",
+      "options": ["React", "Django", "HTML", "CSS"],
+      "correct_answer": "Django"
+    },
+    {
+      "question": "Wat is een RESTful API?",
+      "options": [
+        "Een type database",
+        "Een programmeertaal",
+        "Een architectuurstijl",
+        "Een webserver"
+      ],
+      "correct_answer": "Een architectuurstijl"
+    },
+    {
+      "question": "Wat is de rol van een database in een webapplicatie?",
+      "options": [
+        "Het opslaan van gebruikersinformatie",
+        "Het ontwerpen van de gebruikersinterface",
+        "Het schrijven van de back-end code",
+        "Het hosten van de website"
+      ],
+      "correct_answer": "Het opslaan van gebruikersinformatie"
+    },
+    {
+      "question": "Welke technologie wordt vaak gebruikt voor het bouwen van microservices?",
+      "options": ["Java", "C++", "Rust", "Assembly"],
+      "correct_answer": "Java"
+    },
+    {
+      "question": "Wat is OAuth?",
+      "options": [
+        "Een programmeertaal",
+        "Een authenticatieprotocol",
+        "Een type database",
+        "Een front-end framework"
+      ],
+      "correct_answer": "Een authenticatieprotocol"
+    },
+    {
+      "question": "Wat is een typische functie van een back-end developer?",
+      "options": [
+        "Het ontwerpen van grafische elementen",
+        "Het beheren van serverconfiguraties",
+        "Het schrijven van HTML en CSS",
+        "Het optimaliseren van zoekmachine rankings"
+      ],
+      "correct_answer": "Het beheren van serverconfiguraties"
+    }
+  ],
+  "2": [
+    {
+      "question": "Responsive design reageert op?",
+      "options": [
+        "Je muis",
+        "Je device lay-out",
+        "Je GPU",
+        "Je gedrag op de website"
+      ],
+      "correct_answer": "Je device lay-out"
+    },
+    {
+      "question": "Welke taal wordt niet gebruikt in Front-end?",
+      "options": ["Javascript", "PHP", "HTML", "CSS"],
+      "correct_answer": "PHP"
+    },
+    {
+      "question": "Wat is de X in UX?",
+      "options": ["Expertise", "Extravagant", "Experience", "Expensive"],
+      "correct_answer": "Experience"
+    },
+    {
+      "question": "Als Front-end Developer houd ik mij het meest bezig met?",
+      "options": [
+        "Hardwareinterfacing",
+        "Infrastructuur",
+        "Organisatieprocessen",
+        "Gebruikersinteractie"
+      ],
+      "correct_answer": "Gebruikersinteractie"
+    },
+    {
+      "question": "Wat is een belangrijk aspect van CSS?",
+      "options": [
+        "Styling van HTML-elementen",
+        "Server-side scripting",
+        "Databasebeheer",
+        "API-integratie"
+      ],
+      "correct_answer": "Styling van HTML-elementen"
+    },
+    {
+      "question": "Wat betekent DOM?",
+      "options": [
+        "Document Object Model",
+        "Document Operations Module",
+        "Data Object Management",
+        "Digital Output Model"
+      ],
+      "correct_answer": "Document Object Model"
+    },
+    {
+      "question": "Welke tool wordt vaak gebruikt voor versiebeheer?",
+      "options": ["Gulp", "Webpack", "Git", "Jest"],
+      "correct_answer": "Git"
+    },
+    {
+      "question": "Wat is het doel van JavaScript?",
+      "options": [
+        "Data opslaan",
+        "Webpagina's interactief maken",
+        "Serverconfiguratie",
+        "Databasebeheer"
+      ],
+      "correct_answer": "Webpagina's interactief maken"
+    },
+    {
+      "question": "Wat is een populaire front-end framework?",
+      "options": ["Django", "Flask", "React", "Node.js"],
+      "correct_answer": "React"
+    },
+    {
+      "question": "Wat is de functie van een CDN?",
+      "options": [
+        "Content Delivery Network",
+        "Central Data Node",
+        "Code Development Network",
+        "Client Data Nucleus"
+      ],
+      "correct_answer": "Content Delivery Network"
+    }
+  ],
+  "3": [
+    {
+      "question": "Wat is geen vorm van een Machine Learning Algorithm?",
+      "options": [
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Supervised Learning",
+        "Neural Learning"
+      ],
+      "correct_answer": "Neural Learning"
+    },
+    {
+      "question": "Wat is geen LLM (Large Language Model)?",
+      "options": ["ChatGPT", "Claude", "Gemini", "Virgo"],
+      "correct_answer": "Virgo"
+    },
+    {
+      "question": "Wie wordt gezien als 'father of AI'?",
+      "options": [
+        "Alan Turing",
+        "John McCarthy",
+        "Edsger Dijkstra",
+        "Ada Lovelace"
+      ],
+      "correct_answer": "John McCarthy"
+    },
+    {
+      "question": "Wat is geen data karakteristiek?",
+      "options": ["Validity", "Volatility", "Volume", "Vacuity"],
+      "correct_answer": "Vacuity"
+    },
+    {
+      "question": "Wat is supervised learning?",
+      "options": [
+        "Een vorm van leren met gelabelde data",
+        "Een manier van data-analyse",
+        "Een type van neural networks",
+        "Een manier van ongestructureerde data verwerken"
+      ],
+      "correct_answer": "Een vorm van leren met gelabelde data"
+    },
+    {
+      "question": "Wat is deep learning?",
+      "options": [
+        "Een laag van machine learning",
+        "Een vorm van data-analyse",
+        "Een type van data",
+        "Een manier van programmeren"
+      ],
+      "correct_answer": "Een laag van machine learning"
+    },
+    {
+      "question": "Wat is het doel van machine learning?",
+      "options": [
+        "Automatiseren van data-analyse",
+        "Verbeteren van menselijke interactie",
+        "Beveiligen van netwerken",
+        "Verhogen van de opslagcapaciteit"
+      ],
+      "correct_answer": "Automatiseren van data-analyse"
+    },
+    {
+      "question": "Wat is een belangrijk aspect van AI?",
+      "options": [
+        "Natural Language Processing",
+        "Webontwikkeling",
+        "Serverconfiguratie",
+        "Data-analyse"
+      ],
+      "correct_answer": "Natural Language Processing"
+    },
+    {
+      "question": "Wat zijn neurale netwerken?",
+      "options": [
+        "Een manier om data te visualiseren",
+        "Een type machine learning model",
+        "Een databasetool",
+        "Een webframework"
+      ],
+      "correct_answer": "Een type machine learning model"
+    },
+    {
+      "question": "Wat is reinforcement learning?",
+      "options": [
+        "Een leermethode gebaseerd op beloningen",
+        "Een manier om netwerken te beveiligen",
+        "Een type van data-analyse",
+        "Een methode voor softwareontwikkeling"
+      ],
+      "correct_answer": "Een leermethode gebaseerd op beloningen"
+    }
+  ],
+  "4": [
+    {
+      "question": "Wat heeft nog steeds geen Embedded Technology?",
+      "options": ["Wasmachines", "Camera's", "Auto's", "Strijkplank"],
+      "correct_answer": "Strijkplank"
+    },
+    {
+      "question": "Als Embedded Technology Engineer houd je je bezig met?",
+      "options": ["Hardware", "Software", "Firmware", "Alle bovenstaande"],
+      "correct_answer": "Alle bovenstaande"
+    },
+    {
+      "question": "Wat is een HDL?",
+      "options": [
+        "Hardware Description Language",
+        "High-density Libraries",
+        "Home Device Libraries",
+        "Hardware Device Levels"
+      ],
+      "correct_answer": "Hardware Description Language"
+    },
+    {
+      "question": "Als Embedded Technology Engineer ben je waarschijnlijk afgestudeerd in de richting TI, waar staat TI voor?",
+      "options": [
+        "Techniek Interactie",
+        "Technische Introductie",
+        "Techniek en Informatie",
+        "Technische Informatica"
+      ],
+      "correct_answer": "Technische Informatica"
+    },
+    {
+      "question": "Wat is een veelgebruikte programmeertaal in embedded systemen?",
+      "options": ["Python", "C", "JavaScript", "HTML"],
+      "correct_answer": "C"
+    },
+    {
+      "question": "Wat is een microcontroller?",
+      "options": [
+        "Een type computer",
+        "Een klein computersysteem op één chip",
+        "Een softwaretool",
+        "Een netwerkprotocol"
+      ],
+      "correct_answer": "Een klein computersysteem op één chip"
+    },
+    {
+      "question": "Wat doet een debugger?",
+      "options": [
+        "Code optimaliseren",
+        "Fouten in code vinden",
+        "Data opslaan",
+        "Software installeren"
+      ],
+      "correct_answer": "Fouten in code vinden"
+    },
+    {
+      "question": "Wat is het belangrijkste doel van firmware?",
+      "options": [
+        "Hardware aansturen",
+        "Data analyseren",
+        "Netwerken beveiligen",
+        "Webpagina's ontwerpen"
+      ],
+      "correct_answer": "Hardware aansturen"
+    },
+    {
+      "question": "Wat is de functie van een sensor in embedded systemen?",
+      "options": [
+        "Data verzamelen uit de omgeving",
+        "Code uitvoeren",
+        "Netwerken beheren",
+        "Gebruikersinterfaces creëren"
+      ],
+      "correct_answer": "Data verzamelen uit de omgeving"
+    },
+    {
+      "question": "Wat is een veelgebruikte tool voor embedded softwareontwikkeling?",
+      "options": ["Visual Studio", "Eclipse", "Arduino IDE", "Notepad"],
+      "correct_answer": "Arduino IDE"
+    }
+  ],
+  "5": [
+    {
+      "question": "Wat is geen belangrijke KPI (Key Performance Indicator) in ICT?",
+      "options": [
+        "Server uptime",
+        "Network latency",
+        "Avg. Money spent",
+        "Avg. Time spent"
+      ],
+      "correct_answer": "Avg. Money spent"
+    },
+    {
+      "question": "Waar houdt een Business IT engineer zich vooral mee bezig?",
+      "options": [
+        "Programmeren",
+        "Oplossen van technische problemen",
+        "Consultantcy",
+        "Accountantcy"
+      ],
+      "correct_answer": "Consultantcy"
+    },
+    {
+      "question": "Op welke Architectuurlaag bevindt de Business IT engineer zich het meest?",
+      "options": [
+        "Infrastructuur",
+        "Gebruikersinteractie",
+        "Hardwareinterfacing",
+        "Organisatieprocessen"
+      ],
+      "correct_answer": "Organisatieprocessen"
+    },
+    {
+      "question": "Waar staat BIM voor?",
+      "options": [
+        "Business ICT en Migration",
+        "Business ICT en Management",
+        "Business IT en Migration",
+        "Business IT en Management"
+      ],
+      "correct_answer": "Business IT en Management"
+    },
+    {
+      "question": "Wat is een belangrijk aspect van Business IT?",
+      "options": [
+        "Financieel beheer",
+        "Softwareontwikkeling",
+        "Projectmanagement",
+        "Alle bovenstaande"
+      ],
+      "correct_answer": "Alle bovenstaande"
+    },
+    {
+      "question": "Wat is het doel van IT-consultancy?",
+      "options": [
+        "Problemen oplossen voor klanten",
+        "Software ontwikkelen",
+        "Hardware installeren",
+        "Data opslaan"
+      ],
+      "correct_answer": "Problemen oplossen voor klanten"
+    },
+    {
+      "question": "Wat betekent ITIL?",
+      "options": [
+        "Information Technology Infrastructure Library",
+        "Information Technology Integrated Logistics",
+        "Information Technology Internet Library",
+        "Information Technology Implementation Library"
+      ],
+      "correct_answer": "Information Technology Infrastructure Library"
+    },
+    {
+      "question": "Wat is de rol van een IT-manager?",
+      "options": [
+        "Code schrijven",
+        "IT-strategieën ontwikkelen",
+        "Netwerken beveiligen",
+        "Data analyseren"
+      ],
+      "correct_answer": "IT-strategieën ontwikkelen"
+    },
+    {
+      "question": "Wat is de functie van een ERP-systeem?",
+      "options": [
+        "Bedrijfsprocessen integreren",
+        "Websites bouwen",
+        "Hardware beheren",
+        "Data opslaan"
+      ],
+      "correct_answer": "Bedrijfsprocessen integreren"
+    },
+    {
+      "question": "Wat is een veelgebruikte database in business IT?",
+      "options": ["MySQL", "HTML", "CSS", "Python"],
+      "correct_answer": "MySQL"
+    }
+  ],
+  "6": [
+    {
+      "question": "Wat betekent CSC?",
+      "options": [
+        "Cloud & Super Computers",
+        "Computer Science & Cloud",
+        "Cyber Security & Cloud",
+        "Cloud Security & Cyber"
+      ],
+      "correct_answer": "Cyber Security & Cloud"
+    },
+    {
+      "question": "NIS2 (Network and Information Security) is een vorm van?",
+      "options": [
+        "Hacktechniek",
+        "Cyberwetgeving",
+        "Bedrijf voor veilige cloudoplossingen",
+        "Amerikaanse richtlijnen over netwerken en veiligheid"
+      ],
+      "correct_answer": "Cyberwetgeving"
+    },
+    {
+      "question": "Wat is de belangrijkste HBO-i activiteit in CSC?",
+      "options": ["Manage & Control", "Realiseren", "Adviseren", "Analyseren"],
+      "correct_answer": "Manage & Control"
+    },
+    {
+      "question": "Wat is de belangrijkste HBO-i vaardigheid in CSC?",
+      "options": [
+        "Kwalitatief product maken",
+        "Overzicht creëren",
+        "Pro-actief handelen",
+        "Reflecteren"
+      ],
+      "correct_answer": "Pro-actief handelen"
+    },
+    {
+      "question": "Wat is een belangrijke beveiligingsmaatregel in de cloud?",
+      "options": [
+        "Encryptie",
+        "Webhosting",
+        "Data-analyse",
+        "Softwareontwikkeling"
+      ],
+      "correct_answer": "Encryptie"
+    },
+    {
+      "question": "Wat is een DDoS-aanval?",
+      "options": [
+        "Data-analyse",
+        "Distributed Denial of Service",
+        "Data Delivery over Secure",
+        "Direct Denial of Security"
+      ],
+      "correct_answer": "Distributed Denial of Service"
+    },
+    {
+      "question": "Wat is een firewall?",
+      "options": [
+        "Een softwaretool voor beveiliging",
+        "Een type cloudoplossing",
+        "Een netwerkprotocol",
+        "Een database"
+      ],
+      "correct_answer": "Een softwaretool voor beveiliging"
+    },
+    {
+      "question": "Wat is de rol van een cloud engineer?",
+      "options": [
+        "Hardware installeren",
+        "Cloudinfrastructuur beheren",
+        "Websites ontwikkelen",
+        "Software schrijven"
+      ],
+      "correct_answer": "Cloudinfrastructuur beheren"
+    },
+    {
+      "question": "Wat is encryptie?",
+      "options": [
+        "Een manier om data te beveiligen",
+        "Een softwaretool",
+        "Een type netwerk",
+        "Een databaseoplossing"
+      ],
+      "correct_answer": "Een manier om data te beveiligen"
+    },
+    {
+      "question": "Wat is phishing?",
+      "options": [
+        "Een type cyberaanval",
+        "Een cloudoplossing",
+        "Een netwerkprotocol",
+        "Een softwareontwikkelingstool"
+      ],
+      "correct_answer": "Een type cyberaanval"
+    }
+  ]
+}
